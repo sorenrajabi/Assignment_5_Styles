@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: grey;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    transition: background-color .2s, color .2s;
+}
+
+a:hover {
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
+
+p, h1, h2, h3, h4, h5 , h6 {
+    margin: 20px;
+    color:white;
+    
+
+}
+p:first-of-type {
+    
+    color:rgb(235, 235, 245);
+}
+html{
+    background-color: darkblue;
+}
+u{
+    background-color:#fba300;
+}
+
+
